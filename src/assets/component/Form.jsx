@@ -11,7 +11,7 @@ const Form = () => {
           <h3>Untitled UI</h3>
         </div>
 
-        <form action="">
+        <form className="login_form" action="">
           <div className="top_heading">
             <h1>Welcome back</h1>
             <p>Please enter your details</p>

@@ -2,7 +2,7 @@ import React from "react";
 import Menuber from "./Menuber";
 import Table from "./Table";
 import Footer from "./Footer";
-import "./InputPage"
+import "./TopInputPage"
 
 const InputPage = (props) => {
   const labelName = [

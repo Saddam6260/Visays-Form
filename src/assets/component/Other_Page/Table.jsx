@@ -1,17 +1,19 @@
-import React from 'react'
-import "./Table.css"
+import React from "react";
+import "./Table.css";
 
 const Table = (props) => {
   return (
-    <div className='table_wrap'>
+      <form className="table_wrap">
         {props.labelItem.map((item, index) => (
-            <div key={index} className='input_wrapper'>
-                <label htmlFor="">{item}</label>
-                <input type="text" />
-            </div>   
+          <div key={index} className="input_wrapper">
+            <label htmlFor="">{item}</label>
+            <input type="text" />
+          </div>
         ))}
-    </div>
-  )
-}
 
-export default Table
+        <button type="submit"></button>
+      </form>
+  );
+};
+
+export default Table;

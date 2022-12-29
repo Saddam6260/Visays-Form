@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css';
-import InputPage from "./assets/component/Other_Page/InputPage"
+import TopInputPage from "./assets/component/Other_Page/TopInputPage"
 import Form from "./assets/component/Form";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className='app'>
-      <InputPage item={menuItem}/>
+      <TopInputPage item={menuItem}/>
       {/* <Form /> */}
     </div>
   )

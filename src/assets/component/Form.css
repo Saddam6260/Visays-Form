@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.form_wrapper{
+    background-color: #f9fcf8;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 20px;
+}
+form{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-wrap{
+    text-align: start;
+}
+.logo-wrap h3{
+    margin: 0px;
+}
+.top_heading{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.top_heading h1{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0px;
+    letter-spacing: 1px;
+    color: #2f5255;
+}
+.top_heading p{
+    margin: 0px;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #2f5255;
+    font-weight: 600;
+}
+.input_wrap{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: start;
+    row-gap: 4px;
+    margin-bottom: 20px;
+}
+.input_wrap label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #34575a;
+}
+.input_wrap input{
+    padding: 12px 0px;
+    border-radius: 7px;
+    border: 2px solid #d2ded9;
+}
+.input_wrap input::placeholder{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.input_wrap input[type=checkbox] {
+    border: 2px solid #d2ded9;
+    margin-right: 7px;
+}
+
+.checkbox_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-bottom: 25px;
+    column-gap: 40px;
+    align-items: center;
+}
+.checkbox_wrapper label{
+    color: #2f5255;
+    font-weight: bold;
+}
+.checkbox_wrapper a{
+    margin: 0px;
+    font-size: 14px;
+    color: #699166;
+    font-weight: bold;
+}
+
+.form_wrapper button{
+    background-color: #466443;
+    width: 100%;
+    color: white;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+
+.signup_wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.signup_wrapper p{
+    margin: 0px;
+    color: #2f5255;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.signup_wrapper a{
+    color: #699166;
+    font-weight: 600;
+}
+.bottom-pera{
+    text-align: start;
+    font-size: 12px;
+    margin-top: 60px;
+}
+.rightSideImage{
+    background-image: url("./img/img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

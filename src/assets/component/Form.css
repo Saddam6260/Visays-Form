@@ -5,16 +5,19 @@
 .container{
     display: grid;
     grid-template-columns: 50% 50%;
+    height: 100vh;
 }
 .form_wrapper{
     background-color: #f9fcf8;
-    border-radius: 20px 0px 0px 20px;
     padding-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 form{
-    max-width: 300px;
+    max-width: 330px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 .logo-wrap{
     text-align: start;
@@ -24,7 +27,6 @@ form{
 }
 .top_heading{
     margin-bottom: 30px;
-    margin-top: 30px;
     text-align: center;
 }
 .top_heading h1{
@@ -72,7 +74,6 @@ form{
     justify-content: space-between;
     flex-flow: row wrap;
     margin-bottom: 25px;
-    column-gap: 40px;
     align-items: center;
 }
 .checkbox_wrapper label{
@@ -86,12 +87,14 @@ form{
     font-weight: bold;
 }
 
-.form_wrapper button{
+button{
     background-color: #466443;
     width: 100%;
     color: white;
     padding: 10px 0px;
     margin-bottom: 30px;
+    border-radius: 8px;
+    border: 0px;
 }
 
 .signup_wrapper{
@@ -112,7 +115,7 @@ form{
 .bottom-pera{
     text-align: start;
     font-size: 12px;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 .rightSideImage{
     background-image: url("./img/img.jpg");

@@ -31,7 +31,7 @@ const Form = () => {
             </div>
             <a>Forgot password</a>
           </div>
-          <button type="submit">Sign up</button>
+          <button className="signup_btn" type="submit">Sign up</button>
           <div className="signup_wrapper">
             <p>Don't have an account?</p>
             <a href="">Sign up</a>

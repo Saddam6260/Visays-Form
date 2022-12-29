@@ -86,7 +86,7 @@ form{
     font-weight: bold;
 }
 
-button{
+.signup_btn{
     background-color: #466443;
     width: 100%;
     color: white;

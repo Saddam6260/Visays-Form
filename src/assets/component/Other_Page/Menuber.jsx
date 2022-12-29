@@ -11,7 +11,7 @@ const Menuber = (props) => {
         <div>
             <ul>
                 {props.item.map((value, index) => {
-                    return <li>{value}</li>
+                    return <li key={index}>{value}</li>
                 })}
             </ul>
         </div>

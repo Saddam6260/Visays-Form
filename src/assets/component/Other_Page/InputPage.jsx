@@ -1,6 +1,8 @@
 import React from "react";
 import Menuber from "./Menuber";
 import Table from "./Table";
+import Footer from "./Footer";
+import "./InputPage"
 
 const InputPage = (props) => {
   const labelName = [
@@ -13,9 +15,10 @@ const InputPage = (props) => {
   ];
 
   return (
-    <div>
+    <div className="input_page_wrap">
       <Menuber item={props.item} />
       <Table labelItem={labelName}/>
+      <Footer/>
     </div>
   );
 };

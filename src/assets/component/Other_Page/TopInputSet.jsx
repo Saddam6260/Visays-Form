@@ -1,5 +1,5 @@
 import React from "react";
-import "./Table.css";
+import "./TopInputSet.css";
 
 const Table = (props) => {
   return (
@@ -11,7 +11,7 @@ const Table = (props) => {
           </div>
         ))}
 
-        <button type="submit"></button>
+        <button type="submit">Submit</button>
       </form>
   );
 };

@@ -1,10 +1,12 @@
-.table_wrap{
+.topFormWrap{
+    padding: 0px 50px;
+}
+.toptable_wrap{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
-    padding: 0px 50px;
 }
 
 .input_wrapper{
@@ -13,8 +15,7 @@
     row-gap: 5px;
 }
 .input_wrapper label{
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 14px;
     color: #466443;
 }
 .input_wrapper input{
@@ -22,21 +23,35 @@
     border-radius: 5px;
     border: 2px solid #d2ded9;
 }
+.topinputsubmit_btn{
+    text-align: end;
+    margin-top: 20px;
+}
+.topinputsubmit_btn button{
+    border: none;
+    padding: 10px 30px;
+    background-color: #6c3dd3;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
 
 @media only screen and (min-width: 576px){
-    .table_wrap{
+    .toptable_wrap{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
 }
 @media only screen and (min-width: 768px){
-    .table_wrap{
+    .toptable_wrap{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 }
 @media only screen and (min-width: 1400px){
-    .table_wrap{
+    .toptable_wrap{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }

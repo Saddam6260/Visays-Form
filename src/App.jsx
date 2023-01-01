@@ -8,6 +8,7 @@ import MiddleInputSet from "./assets/component/Other_Page/MiddleInputSet"
 import BottomInputSet from "./assets/component/Other_Page/BottomInputSet"
 import Footer from "./assets/component/Other_Page/Footer"
 import Form from "./assets/component/Form";
+import TopTable from "./assets/component/Table/TopTable"
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,11 +17,13 @@ function App() {
 
   return (
     <div className="app">
-      <MenuBer item={menuItem}/>
-      <TopInputSet/>
+      {/* <MenuBer item={menuItem}/> */}
+      {/* <TopInputSet/>
       <MiddleInputSet/>
-      <BottomInputSet/>
-      <Footer/>
+      <BottomInputSet/> */}
+      {/* <Footer/> */}
+
+      <TopTable />
     </div>
   );
 }
